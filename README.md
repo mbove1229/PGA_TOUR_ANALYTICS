@@ -17,7 +17,7 @@ Do strokes gained metrics explain variation in PGA Tour scoring averages more ef
 ```
 PGA_TOUR_ANALYTICS/
 ├── PGA Tour Scraper.ipynb     # Python scraper — collects 2019-2025 data from PGA Tour API
-├── PGA_Tour_Analysis.R        # R analysis — regression, cross-validation, stepwise, visualizations
+├── PGA_data_analysis.R        # R analysis -- regression, cross-validation, stepwise, visualizations
 ├── golf.csv                   # Original dataset (2010-2018) sourced from Kaggle
 ├── pga_tour_2019_2025.csv     # Scraped dataset (2019-2025) collected via PGA Tour GraphQL API
 └── README.md
