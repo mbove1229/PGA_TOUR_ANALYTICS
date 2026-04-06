@@ -52,7 +52,7 @@ pip install requests pandas
 ```
 
 2. Open `PGA Tour Scraper.ipynb` in Jupyter Notebook
-3. Run all cells — the final cell saves `pga_tour_2019_2025.csv` to your working directory
+3. Run all cells. The final cell saves `pga_tour_2019_2025.csv` to your working directory
 
 ---
 
@@ -91,7 +91,7 @@ install.packages(c("dplyr", "tidyverse", "tidymodels"))
 ## Key Findings
 
 - Strokes gained metrics explain **92.6% of variance** in scoring average vs. **71.2%** for traditional metrics
-- Cross-validation confirms the gap is not due to overfitting — both models generalize well to unseen data
+- Cross-validation confirms the gap is not due to overfitting. Both models generalize well to unseen data
 - Stepwise regression retains all variables in both models, with SG metrics showing more balanced variable importance across categories
 - Tour-wide scoring averages have remained remarkably stable (70.85–71.1) across 15 seasons despite equipment and course changes
 
