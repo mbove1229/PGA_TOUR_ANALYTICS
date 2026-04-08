@@ -27,7 +27,7 @@ PGA_TOUR_ANALYTICS/
 
 ## Data Collection (Python)
 
-The scraper interacts directly with the PGA Tour's GraphQL API at `orchestrator.pgatour.com/graphql`. The API endpoint and client-side API key were identified by inspecting browser network traffic using Chrome's developer tools.
+The scraper interacts directly with the PGA Tour's GraphQL API at `orchestrator.pgatour.com/graphql`. The API endpoint and client-side API key were identified by inspecting browser network traffic.
 
 **Stats collected:**
 - Scoring Average
