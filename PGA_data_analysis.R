@@ -1,8 +1,11 @@
+#FOR REPRODUCIBILITY:
+#Download entire repository as a folder
+#place all files in the same directory and open this script for that directory
+
 library(dplyr)
 library(tidyverse)
 library(tidymodels)  # for cross-validation
 
-setwd('/Users/michaelbove/Desktop/640 Labs')
 
 #load data 
 data_original <- read.csv("golf.csv")
