@@ -15,11 +15,14 @@ Do strokes gained metrics explain variation in PGA Tour scoring averages more ef
 ## Repository Structure
 
 ```
-PGA_TOUR_ANALYTICS/
-- PGA Tour Scraper.ipynb     # Python scraper — collects 2019-2025 data from PGA Tour API
-- PGA_data_analysis.R        # R analysis -- regression, cross-validation, stepwise, visualizations
-- golf.csv                   # Original dataset (2010-2018) sourced from Kaggle
-- pga_tour_2019_2025.csv     # Scraped dataset (2019-2025) collected via PGA Tour GraphQL API
+- PGA Tour Scraper.ipynb      # Python scraper. Collects 2019-2025 data from PGA Tour API
+- 01_combine_data.R           # Load, clean, and combine both datasets
+- 02_regression.R             # OLS regression models
+- 03_visualizations.R         # All five visualizations
+- 04_cross_validation.R       # 10-fold cross validation
+- 05_stepwise.R               # Stepwise regression
+- golf.csv                    # Original dataset (2010-2018) sourced from Kaggle
+- pga_tour_2019_2025.csv      # Scraped dataset (2019-2025) collected via PGA Tour GraphQL API
 - README.md
 ```
 
@@ -79,12 +82,11 @@ The R script loads both datasets, combines them into a 3,639 row dataset spannin
 
 1. Install R packages:
 ```r
-install.packages(c("dplyr", "tidyverse", "tidymodels"))
+   install.packages(c("dplyr", "tidyverse", "tidymodels"))
 ```
 
-2. Place `golf.csv` and `pga_tour_2019_2025.csv` in your working directory
-3. Update `setwd()` in the script to match your working directory
-4. Run the full script in RStudio
+2. Download the full repository as a folder and open the scripts from that folder. No file paths need to be changed.
+3. Run the scripts in order: 01 first, then 02, 03, 04, and 05
 
 ---
 
