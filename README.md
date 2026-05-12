@@ -27,7 +27,7 @@ Do strokes gained metrics explain variation in PGA Tour scoring averages more ef
 ```
 ## Portfolio Essay
 
-[Read the full portfolio essay here](https://docs.google.com/document/d/1Il_rpi3P9MbUzLGlb3ApTc85KlYFbJcyk5KlnTP1HKMQ/edit?usp=sharing)
+[Read the full portfolio essay here](https://docs.google.com/document/d/1I_rpi3P9MbUzLGlb3ApTc85KlYFbJcyk5KInTP1HKMQ/edit?usp=sharing)
 ---
 
 ## Data Collection (Python)
