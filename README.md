@@ -25,7 +25,9 @@ Do strokes gained metrics explain variation in PGA Tour scoring averages more ef
 - pga_tour_2019_2025.csv      # Scraped dataset (2019-2025) collected via PGA Tour GraphQL API
 - README.md
 ```
+## Portfolio Essay
 
+[Read the full portfolio essay here] https://docs.google.com/document/d/1I_rpi3P9MbUzLGlb3ApTc85KlYFbJcyk5KInTP1HKMQ/edit?usp=sharing
 ---
 
 ## Data Collection (Python)
